@@ -1,16 +1,23 @@
 [
     {
-        "label": "2020-09-14",
-        "confirmed": " 13",
-        "recovered": " 10",
-        "death": " 1",
+        "label": "2020-09-14", 
+        "confirmed": " 13", 
+        "recovered": " 10", 
+        "death": " 1", 
         "test": " 200"
+    }, 
+    {
+        "label": "2020-09-15", 
+        "confirmed": "200", 
+        "recovered": "120", 
+        "death": "2", 
+        "test": "300"
     },
     {
-        "label": "2020-09-13",
-        "confirmed": " 300",
-        "recovered": " 290",
-        "death": " 20",
-        "test": " 400"
+        "label": "2020-09-15", 
+        "confirmed": "200", 
+        "recovered": "120", 
+        "death": "2", 
+        "test": "300"
     }
 ]
