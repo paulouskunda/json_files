@@ -1,0 +1,434 @@
+var Zambia = {
+    "provinces": [{
+            "name": "Lusaka",
+            "id": "Lusaka",
+            "districts": [{
+                    "name": "Chilanga",
+                    "id": "Chilanga"
+                },
+                {
+                    "name": "Chirundu",
+                    "id": "Chirundu"
+                },
+                {
+                    "name": "Chongwe",
+                    "id": "Chongwe"
+                },
+                {
+                    "name": "Kafue",
+                    "id": "Kafue"
+                },
+                {
+                    "name": "Luangwa",
+                    "id": "Luangwa"
+                },
+                {
+                    "name": "Lusaka",
+                    "id": "Lusaka"
+                },
+                {
+                    "name": "Rufunsa",
+                    "id": "Rufunsa"
+                },
+                {
+                    "name": "Shibuyunji",
+                    "id": "Shibuyunji"
+                }
+            ]
+        },
+        {
+            "name": "Copperbelt",
+            "id": "Copperbelt",
+            "districts": [{
+                    "name": "Chililabombwe",
+                    "id": "Chililabombwe"
+                },
+                {
+                    "name": "Chingola",
+                    "id": "Chingola"
+                },
+                {
+                    "name": "Kalulushi",
+                    "id": "Kalulushi"
+                },
+                {
+                    "name": "Kitwe",
+                    "id": "Kitwe"
+                },
+                {
+                    "name": "Luanshya",
+                    "id": "Luanshya"
+                },
+                {
+                    "name": "Lufwanyama",
+                    "id": "Lufwanyama"
+                },
+                {
+                    "name": "Masaiti",
+                    "id": "Masaiti"
+                },
+                {
+                    "name": "Mpongwe",
+                    "id": "Mpongwe"
+                },
+                {
+                    "name": "Mufulira",
+                    "id": "Mufulira"
+                },
+                {
+                    "name": "Ndola",
+                    "id": "Ndola"
+                },
+                {
+                    "name": "Chambishi",
+                    "id": "Chambishi"
+                }
+            ]
+        },
+        {
+            "name": "Central",
+            "id": "Central",
+            "districts": [{
+                    "name": "Chibombo",
+                    "id": "Chibombo"
+                },
+                {
+                    "name": "Chisamba",
+                    "id": "Chisamba"
+                },
+                {
+                    "name": "Chitambo",
+                    "id": "Chitambo"
+                },
+                {
+                    "name": "Kabwe",
+                    "id": "Kabwe"
+                },
+                {
+                    "name": "Kapiri-Mposhi",
+                    "id": "Kapiri-Mposhi"
+                },
+                {
+                    "name": "Luano",
+                    "id": "Luano"
+                },
+                {
+                    "name": "Mkushi",
+                    "id": "Mkushi"
+                },
+                {
+                    "name": "Mumbwa",
+                    "id": "Mumbwa"
+                },
+                {
+                    "name": "Ngabwe",
+                    "id": "Ngabwe"
+                },
+                {
+                    "name": "Serenje",
+                    "id": "Serenje"
+                },
+                {
+                    "name": "Itezhi-Tezhi",
+                    "id": "Itezhi-Tezhi"
+                }
+            ]
+        },
+        {
+            "name": "Eastern",
+            "id": "Eastern",
+            "districts": [{
+                "name": "Chadiza",
+                "id": "Chadiza"
+            }, {
+                "name": "Chasefu",
+                "id": "Chasefu"
+            }, {
+                "name": "Chipangali",
+                "id": "Chipangali"
+            }, {
+                "name": "Chipata",
+                "id": "Chipata"
+            }, {
+                "name": "Kasenengwa",
+                "id": "Kasenengwa"
+            }, {
+                "name": "Katete",
+                "id": "Katete"
+            }, {
+                "name": "Lumezi",
+                "id": "Lumezi"
+            }, {
+                "name": "Lundazi",
+                "id": "Lundazi"
+            }, {
+                "name": "Mambwe",
+                "id": "Mambwe"
+            }, {
+                "name": "Lusangazi",
+                "id": "Lusangazi"
+            }, {
+                "name": "Nyimba",
+                "id": "Nyimba"
+            }, {
+                "name": "Petauke",
+                "id": "Petauke"
+            }, {
+                "name": "Sinda",
+                "id": "Sinda"
+            }, {
+                "name": "Vubwi",
+                "id": "Vubwi"
+            }]
+        },
+        {
+            "name": "Luapula",
+            "id": "Luapula",
+            "districts": [{
+                "name": "Chiengi",
+                "id": "Chiengi"
+            }, {
+                "name": "Chifunabuli",
+                "id": "Chifunabuli"
+            }, {
+                "name": "Chipili",
+                "id": "Chipili"
+            }, {
+                "name": "Chembe",
+                "id": "Chembe"
+            }, {
+                "name": "Kawambwa",
+                "id": "Kawambwa"
+            }, {
+                "name": "Lunga",
+                "id": "Lunga"
+            }, {
+                "name": "Mansa",
+                "id": "Mansa"
+            }, {
+                "name": "Milenge",
+                "id": "Milenge"
+            }, {
+                "name": "Mwansabobwe",
+                "id": "Mwansabobwe"
+            }, {
+                "name": "Mwense",
+                "id": "Mwense"
+            }, {
+                "name": "Nchelenge",
+                "id": "Nchelenge"
+            }, {
+                "name": "Samfya",
+                "id": "Samfya"
+            }]
+        },
+        {
+            "name": "Muchinga",
+            "id": "Muchinga",
+            "districts": [{
+                "name": "Chama",
+                "id": "Chama"
+            }, {
+                "name": "Chilinda",
+                "id": "Chilinda"
+            }, {
+                "name": "Chinsali",
+                "id": "Chinsali"
+            }, {
+                "name": "Isoka",
+                "id": "Isoka"
+            }, {
+                "name": "Kanchibiya",
+                "id": "Kanchibiya"
+            }, {
+                "name": "Lavushimanda",
+                "id": "Lavushimanda"
+            }, {
+                "name": "Mafinga",
+                "id": "Mafinga"
+            }, {
+                "name": "Mpika",
+                "id": "Mpika"
+            }, {
+                "name": "Nakonde",
+                "id": "Nakonde"
+            }, {
+                "name": "Shiwa\'Ngandu",
+                "id": "Shiwa\'Ngandu"
+            }]
+        },
+        {
+            "name": "Northern",
+            "id": "Northern",
+            "districts": [{
+                "name": "Chilubi",
+                "id": "Chilubi"
+            }, {
+                "name": "Kaputa",
+                "id": "Kaputa"
+            }, {
+                "name": "Kasama",
+                "id": "Kasama"
+            }, {
+                "name": "Lunte",
+                "id": "Lunte"
+            }, {
+                "name": "Lupososhi",
+                "id": "Lupososhi"
+            }, {
+                "name": "Luwingu",
+                "id": "Luwingu"
+            }, {
+                "name": "Mbala",
+                "id": "Mbala"
+            }, {
+                "name": "Mporokoso",
+                "id": "Mporokoso"
+            }, {
+                "name": "Mpulungu",
+                "id": "Mpulungu"
+            }, {
+                "name": "Mungwi",
+                "id": "Mungwi"
+            }, {
+                "name": "Nsama",
+                "id": "Nsama"
+            }, {
+                "name": "Senga",
+                "id": "Senga"
+            }]
+        },
+        {
+            "name": "NorthWestern",
+            "id": "NorthWestern",
+            "districts": [{
+                "name": "Chavuma",
+                "id": "Chavuma"
+            }, {
+                "name": "Ikelenge",
+                "id": "Ikelenge"
+            }, {
+                "name": "Kabompo",
+                "id": "Kabompo"
+            }, {
+                "name": "Kalumbila",
+                "id": "Kalumbila"
+            }, {
+                "name": "Kasempa",
+                "id": "Kasempa"
+            }, {
+                "name": "Manyinga",
+                "id": "Manyinga"
+            }, {
+                "name": "Mufumbwe",
+                "id": "Mufumbwe"
+            }, {
+                "name": "Mushindano",
+                "id": "Mushindano"
+            }, {
+                "name": "Mwinilunga",
+                "id": "Mwinilunga"
+            }, {
+                "name": "Solwezi",
+                "id": "Solwezi"
+            }, {
+                "name": "Zambezi",
+                "id": "Zambezi"
+            }]
+        },
+        {
+            "name": "Southern",
+            "id": "Southern",
+            "districts": [{
+                "name": "Chikankata",
+                "id": "ChikankataChoma"
+            }, {
+                "name": "Choma",
+                "id": "Choma"
+            }, {
+                "name": "Gwembe",
+                "id": "Gwembe"
+            }, {
+                "name": "Kalomo",
+                "id": "Kalomo"
+            }, {
+                "name": "Kazungula",
+                "id": "Kazungula"
+            }, {
+                "name": "Livingstone",
+                "id": "Livingstone"
+            }, {
+                "name": "Mazabuka",
+                "id": "Mazabuka"
+            }, {
+                "name": "Monze",
+                "id": "Monze"
+            }, {
+                "name": "Namwala",
+                "id": "Namwala"
+            }, {
+                "name": "Pemba",
+                "id": "Pemba"
+            }, {
+                "name": "Siavonga",
+                "id": "Siavonga"
+            }, {
+                "name": "Sinazongwe",
+                "id": "Sinazongwe"
+            }, {
+                "name": "Zimba",
+                "id": "Zimba"
+            }]
+        },
+        {
+            "name": "Western",
+            "id": "Western",
+            "districts": [{
+                "name": "Kalabo",
+                "id": "Kalabo"
+            }, {
+                "name": "Kaoma",
+                "id": "Kaoma"
+            }, {
+                "name": "Limulungu",
+                "id": "Limulungu"
+            }, {
+                "name": "Luampa",
+                "id": "Luampa"
+            }, {
+                "name": "Lukulu",
+                "id": "Lukulu"
+            }, {
+                "name": "Mitete",
+                "id": "Mitete"
+            }, {
+                "name": "Mongu",
+                "id": "Mongu"
+            }, {
+                "name": "Mulobezi",
+                "id": "Mulobezi"
+            }, {
+                "name": "Mwandi",
+                "id": "Mwandi"
+            }, {
+                "name": "Nalolo",
+                "id": "Nalolo"
+            }, {
+                "name": "Nkeyama",
+                "id": "Nkeyama"
+            }, {
+                "name": "Senanga",
+                "id": "Senanga"
+            }, {
+                "name": "Sesheke",
+                "id": "Sesheke"
+            }, {
+                "name": "Shangombo",
+                "id": "Shangombo"
+            }, {
+                "name": "SikongoSioma",
+                "id": "SikongoSioma"
+            }]
+        }
+    ]
+}
